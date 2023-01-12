@@ -7,6 +7,7 @@
     --light: #E7E9FC;
     --without: #fff;
     --grey: #F4F4FD;
+    --footerhover: #31D0AA;
 }
 *{
     margin: 0;
@@ -282,8 +283,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-.worker-soc-icon{
-
+.worker-soc-link:hover{
+    background-color: var(--hover);
+}
+.worker-soc-link:focus{
+    background-color: var(--hover);
 }
 .worker-photo div{
     padding-top: 32px;
@@ -308,6 +312,9 @@ body {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     margin-left: 24px;
+}
+.customer-link{
+    
 }
 /* Footer */
 .page-footer{
@@ -376,8 +383,11 @@ body {
     align-items: center;
     justify-content: center;
 }
-.site-soc-icon{
-
+.site-soc-link:hover{
+    background-color: var(--footerhover);
+}
+.site-soc-link:focus{
+    background-color: var(--footerhover);
 }
 /* PORTFOLIO */
 
