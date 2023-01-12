@@ -314,10 +314,10 @@ body {
     margin-left: 24px;
 }
 .customer-item:hover{
-    color: var(--hover);
+    fill: var(--hover);
 }
 .customer-item:focus{
-    color: var(--hover);
+    fill: var(--hover);
 }
 /* Footer */
 .page-footer{
