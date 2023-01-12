@@ -300,6 +300,7 @@ body {
 }
 .customer-list{
     display: flex;
+    justify-content: center;
 }
 .customer-item{
     content: "";
@@ -312,6 +313,10 @@ body {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     margin-left: 24px;
+}
+.customer-icon{
+    width: 104px;
+    height: 56px;
 }
 .customer-item:hover{
     fill: var(--hover);
