@@ -314,14 +314,16 @@ body {
     border-radius: 4px;
     margin-left: 24px;
 }
-.customer-icon{
-    width: 104px;
-    height: 56px;
+.customer-link{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
-.customer-item:hover{
+.customer-link:hover{
     fill: var(--hover);
 }
-.customer-item:focus{
+.customer-link:focus{
     fill: var(--hover);
 }
 /* Footer */
