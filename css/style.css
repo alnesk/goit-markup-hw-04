@@ -326,6 +326,7 @@ body {
 .customer-item:focus{
     border: 1px solid var(--hover);
     background: var(--hover);
+    
 }
 .customer-link{
     display: flex;
