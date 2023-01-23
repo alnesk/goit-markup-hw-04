@@ -335,10 +335,10 @@ body {
     justify-content: center;
 }
 .customer-link:hover{
-    fill: var(--hover);
+    color: var(--hover);
 }
 .customer-link:focus{
-    fill: var(--hover);
+    color: var(--hover);
 }
 /* Footer */
 .page-footer{
