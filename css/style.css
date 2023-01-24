@@ -321,11 +321,11 @@ body {
 }
 .customer-item:hover{
     border: 1px solid var(--hover);
-    background: var(--hover);
+    fill: var(--hover);
 }
 .customer-item:focus{
     border: 1px solid var(--hover);
-    background: var(--hover);
+    fill: var(--hover);
 }
 .customer-link{
     display: flex;
@@ -334,12 +334,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-.customer-link:hover{
-    color: var(--hover);
+/* .customer-link:hover{
+    fill: var(--hover);
 }
 .customer-link:focus{
-    color: var(--hover);
-}
+    fill: var(--hover);
+} */
 /* Footer */
 .page-footer{
     padding-top: 100px;
