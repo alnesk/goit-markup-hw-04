@@ -316,7 +316,12 @@ body {
     border-radius: 4px;
     margin-left: 24px;
 }
-
+.customer-item:hover{
+    border: 1px solid var(--hover);
+}
+.customer-item:focus{
+    border: 1px solid var(--hover);
+}
 .customer-item:first-child{
     margin-left: 0;
 }
@@ -329,11 +334,9 @@ body {
 }
 .customer-link:hover .customer-icon{
     fill: var(--hover);
-    border: 1px solid var(--hover);
 }
 .customer-icon:focus .customer-icon{
     fill: var(--hover);
-    border: 1px solid var(--hover);
 }
 /* Footer */
 .page-footer{
