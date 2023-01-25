@@ -296,6 +296,16 @@ body {
     padding-bottom: 32px;
 }
 /* CUSTOMER */
+.section-title {
+    margin-top: 0;
+    margin-bottom: 70px;
+    color: var(--title-text-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
 .customers {
     padding: 120px 0 130px 0;
 }
