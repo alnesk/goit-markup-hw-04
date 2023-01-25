@@ -316,14 +316,9 @@ body {
     border-radius: 4px;
     margin-left: 24px;
 }
+
 .customer-item:first-child{
     margin-left: 0;
-}
-.customer-item:hover{
-    border: var(--hover);
-}
-.customer-item:focus{
-    border: var(--hover);
 }
 .customer-link{
     display: flex;
@@ -332,11 +327,13 @@ body {
     align-items: center;
     justify-content: center;
 }
-.customer-icon:hover{
+.customer-link:hover .customer-icon{
     fill: var(--hover);
+    border: 1px solid var(--hover);
 }
-.customer-icon:focus{
+.customer-icon:focus .customer-icon{
     fill: var(--hover);
+    border: 1px solid var(--hover);
 }
 /* Footer */
 .page-footer{
